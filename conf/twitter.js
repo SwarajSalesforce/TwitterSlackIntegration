@@ -1,9 +1,9 @@
 let Twitter = require('twit');
 
-const CONSUMER_KEY = process.env.CONSUMER_KEY;
-const CONSUMER_SECRET = process.env.CONSUMER_SECRET;
-const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
-const ACCESS_SECRET = process.env.ACCESS_SECRET;
+const CONSUMER_KEY = 'PZuIOJhdGxYM4FEdFuuvgKkHe';
+const CONSUMER_SECRET = 'X1eQSrHjTDWL4hhN6tAF4fHZmGFB6aFL8FxFr62fgstOhwA4sZ';
+const ACCESS_TOKEN = '85584838-cMiKxCGbwLBFQWEZSpYKtugrw6jRDgt5dH0XAOTGw';
+const ACCESS_SECRET = 'n9WUh2cltIFNoX34dsbvVwkqE75WvACEj1pyA73C7GnoN';
 
 if (!CONSUMER_KEY) { missing("CONSUMER_KEY"); }
 if (!CONSUMER_SECRET) { missing("CONSUMER_SECRET"); }
