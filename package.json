@@ -1,0 +1,17 @@
+{
+  "name": "twitter-slack-stream",
+  "version": "1.0.2",
+  "description": "Stream tweets to Slack with the greatest of ease!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Emily Rose <emily@contactvibe.com>",
+  "license": "ISC",
+  "dependencies": {
+    "approximate-number": "^2.0.0",
+    "slack-node": "^0.1.8",
+    "twit": "^2.2.5"
+  }
+}
